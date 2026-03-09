@@ -8,6 +8,7 @@ import TeamPage from './pages/jsx/teamPage'
 import InstagramFeed from './pages/jsx/InstagramFeed'
 import { useState, useEffect } from "react";
 import Loader from "./components/loader";
+import ForHer from './pages/jsx/temp_forHer';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <TeamPage />
       <ProjectsPage2 />
       <InstagramFeed />
+      <ForHer/> 
       <Footer />
     </main>
   )

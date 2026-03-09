@@ -6,6 +6,7 @@ import "../style/homePage.css";
 import  gsap  from 'gsap';
 import { useGSAP } from '@gsap/react';
 import {homePageImg} from "../../utils/index.js";
+
 const HomePage = () => {
 
   useGSAP(() => {
@@ -41,6 +42,7 @@ const HomePage = () => {
             </div>
             
         </div>
+        
     </section>
   );
 }

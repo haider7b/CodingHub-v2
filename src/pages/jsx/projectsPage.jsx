@@ -98,9 +98,10 @@ const ProjectsPage2 = () => {
                     </div>
                 ) : (
                     data.map((project, index) => (
+                        (project.name!=="haider7b")&&
                         <div
                             key={project.id}
-                            className="break-all flex flex-col justify-between w-full bg-blue-500 p-5 rounded-2xl shadow-md shadow-blue-500/50 hover:shadow-lg hover:shadow-blue-500/60 transition-all duration-300"
+                            className="flex flex-col justify-between w-full bg-blue-500 p-5 rounded-2xl shadow-md shadow-blue-500/50 hover:shadow-lg hover:shadow-blue-500/60 transition-all duration-300"
                         >
                             <h2 className="text-3xl mb-5 font-bold">
                                 {index + 1} - {project.name || "Untitled Project"}
