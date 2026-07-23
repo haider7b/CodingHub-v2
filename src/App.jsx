@@ -2,13 +2,13 @@ import './App.css'
 import HomePage from './pages/jsx/HomePage'
 import AboutUs from './pages/jsx/AboutUs'
 import Footer from './pages/jsx/Footer'
-import MySection from './pages/jsx/forTest/test'
 import ProjectsPage2 from './pages/jsx/projectsPage'
 import TeamPage from './pages/jsx/teamPage'
 import InstagramFeed from './pages/jsx/InstagramFeed'
+import ChessPage from './pages/jsx/ChessPage'
 import { useState, useEffect } from "react";
 import Loader from "./components/loader";
-import ForHer from './pages/jsx/temp_forHer';
+
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       <TeamPage />
       <ProjectsPage2 />
       <InstagramFeed />
-      <ForHer/> 
+      <ChessPage/>
       <Footer />
     </main>
   )
