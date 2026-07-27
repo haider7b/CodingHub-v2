@@ -675,9 +675,7 @@ function Board() {
                         </span>
                     ))}
                 </div>
-
             </div>
-            
         </div>
     )
 }

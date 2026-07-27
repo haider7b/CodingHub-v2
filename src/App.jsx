@@ -34,7 +34,7 @@ function App() {
       <TeamPage />
       <ProjectsPage2 />
       <InstagramFeed />
-      <ChessPage/>
+      {/* <ChessPage/> */}
       <Footer />
     </main>
   )
