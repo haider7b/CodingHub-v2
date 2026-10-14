@@ -5,7 +5,6 @@ import Footer from './pages/jsx/Footer'
 import ProjectsPage2 from './pages/jsx/projectsPage'
 import TeamPage from './pages/jsx/teamPage'
 import InstagramFeed from './pages/jsx/InstagramFeed'
-import ChessPage from './pages/jsx/ChessPage'
 import { useState, useEffect } from "react";
 import Loader from "./components/loader";
 
@@ -34,7 +33,6 @@ function App() {
       <TeamPage />
       <ProjectsPage2 />
       <InstagramFeed />
-      {/* <ChessPage/> */}
       <Footer />
     </main>
   )

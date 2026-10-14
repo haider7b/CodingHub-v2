@@ -12,9 +12,10 @@ import crossIcon from "../assets/imgs/icons8-cross-mark-64.png";
 import menu from "../assets/imgs/icons8-menu.svg";
 import homePageIm from "../assets/imgs/web-img-removebg-preview (1).png";
 import django from "../assets/imgs/icons8-django-24.png";
+import excel from '../assets/imgs/pngwing.com.png';
 
 
-
+export const excelFile = excel
 export const djangoIcon = django;
 export const canvaIcon = canva;
 export const chatGptIcon = chatgpt;
